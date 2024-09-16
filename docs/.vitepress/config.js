@@ -1,5 +1,4 @@
 import { defineConfig } from "vitepress";
-
 // 常量配置
 const backEndSidebar = [
   {
@@ -66,8 +65,10 @@ const frontEndSidebar = [
     items: [{ text: "VitePress", link: "/front-end/vitepress" }],
   },
 ];
+const base = "/TimegeekerWiki/";
 
 export default defineConfig({
+  base,
   title: "TimegeekerWiki",
   description: "持续进化的后端知识库",
   lastUpdated: true,
