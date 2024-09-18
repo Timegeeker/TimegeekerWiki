@@ -9,6 +9,16 @@ const backEndSidebar = [
     items: [],
   },
   {
+    text: "并发",
+    link: "/back-end/concurrent/",
+    collapsible: true, // 允许折叠
+    collapsed: true, // 默认折叠
+    items: [
+      { text: "JMM", link: "/back-end/concurrent/JMM" },
+      { text: "volatile", link: "/back-end/concurrent/volatile" },
+    ],
+  },
+  {
     text: "操作系统",
     link: "/back-end/os/",
     collapsible: true, // 允许折叠
@@ -19,15 +29,7 @@ const backEndSidebar = [
       { text: "内存管理", link: "/back-end/os/memory" },
     ],
   },
-  {
-    text: "并发",
-    link: "/back-end/concurrent/",
-    collapsible: true, // 允许折叠
-    collapsed: true, // 默认折叠
-    items: [
-      { text: "volatile", link: "/back-end/concurrent/volatile" },
-    ],
-  },
+ 
   {
     text: "计算机网络",
     link: "/back-end/network/",
@@ -53,6 +55,14 @@ const backEndSidebar = [
     collapsed: true, // 默认折叠
     items: [
       
+    ],
+  },
+  {
+    text: "开发工具",
+    collapsible: true, // 允许折叠
+    collapsed: true, // 默认折叠
+    items: [
+      { text: "Git", link: "/back-end/devTools/git" },
     ],
   },
 ];
@@ -81,7 +91,7 @@ export default defineConfig({
     search: {
       provider: "local",
     },
-
+    outline: [1, 2], // 显示一级到三级标题
     // 顶部导航栏
     nav: [
       { text: "Home", link: "/" },
@@ -97,7 +107,7 @@ export default defineConfig({
 
     // 社交链接
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/Timegeeker/TimegeekerWiki" },
     ],
   },
 });

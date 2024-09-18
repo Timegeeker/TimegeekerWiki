@@ -16,11 +16,11 @@ hero:
       text: Java
       link: /back-end/java/
     - theme: brand
-      text: 操作系统
-      link: /back-end/os/
-    - theme: brand
       text: 并发
       link: /back-end/concurrent/
+    - theme: brand
+      text: 操作系统
+      link: /back-end/os/
     - theme: brand
       text: 计算机网络
       link: /back-end/network/
