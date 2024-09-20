@@ -6,7 +6,16 @@ const backEndSidebar = [
     link: "/back-end/java/",
     collapsible: true, // 允许折叠
     collapsed: true, // 默认折叠
-    items: [],
+    items: [
+      {
+        text: "工具类",
+        collapsible: true, // 允许折叠
+        collapsed: true, // 默认折叠
+        items: [
+          { text: "Arrays 和 Collections", link: "/back-end/java/util/Arrays and Collections" },
+        ],
+      }
+    ],
   },
   {
     text: "并发",
@@ -91,7 +100,7 @@ export default defineConfig({
     search: {
       provider: "local",
     },
-    outline: [1, 2], // 显示一级到三级标题
+    outline: [1, 3], // 显示一级到三级标题
     // 顶部导航栏
     nav: [
       { text: "Home", link: "/" },
