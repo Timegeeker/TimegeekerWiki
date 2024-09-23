@@ -23,7 +23,7 @@ const backEndSidebar = [
     collapsible: true, // 允许折叠
     collapsed: true, // 默认折叠
     items: [
-      { text: "JMM", link: "/back-end/concurrent/JMM" },
+      { text: "JMM 详解", link: "/back-end/concurrent/JMM" },
       { text: "volatile", link: "/back-end/concurrent/volatile" },
     ],
   },
