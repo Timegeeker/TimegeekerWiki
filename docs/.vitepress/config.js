@@ -24,7 +24,9 @@ const backEndSidebar = [
     collapsed: true, // 默认折叠
     items: [
       { text: "JMM 详解", link: "/back-end/concurrent/JMM" },
+      { text: "指令重排和内存屏障", link: "/back-end/concurrent/指令重排和内存屏障" },
       { text: "volatile", link: "/back-end/concurrent/volatile" },
+      
     ],
   },
   {
