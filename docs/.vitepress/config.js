@@ -74,6 +74,7 @@ const backEndSidebar = [
     collapsed: true, // 默认折叠
     items: [
       { text: "Git", link: "/back-end/devTools/git" },
+      { text: "Maven", link: "/back-end/devTools/maven" },
     ],
   },
 ];
