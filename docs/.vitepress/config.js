@@ -8,6 +8,14 @@ const backEndSidebar = [
     collapsed: true, // 默认折叠
     items: [
       {
+        text: "多线程",
+        collapsible: true, // 允许折叠
+        collapsed: true, // 默认折叠
+        items: [
+          { text: "Java 中断机制", link: "/back-end/java/thread/中断机制" },
+        ]
+      },
+      {
         text: "工具类",
         collapsible: true, // 允许折叠
         collapsed: true, // 默认折叠
