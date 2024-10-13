@@ -8,6 +8,14 @@ const backEndSidebar = [
     collapsed: true, // 默认折叠
     items: [
       {
+        text: "Object",
+        collapsible: true, // 允许折叠
+        collapsed: true, // 默认折叠
+        items: [
+          { text: "hashCode 和 equals", link: "/back-end/java/object/hashCode 和 equals" },
+        ]
+      },
+      {
         text: "多线程",
         collapsible: true, // 允许折叠
         collapsed: true, // 默认折叠
