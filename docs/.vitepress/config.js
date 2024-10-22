@@ -8,6 +8,14 @@ const backEndSidebar = [
     collapsed: true, // 默认折叠
     items: [
       {
+        text: "基础",
+        collapsible: true, // 允许折叠
+        collapsed: true, // 默认折叠
+        items: [
+          { text: "内部类", link: "/back-end/java/basic/InnerClass" },
+        ]
+      },
+      {
         text: "Object",
         collapsible: true, // 允许折叠
         collapsed: true, // 默认折叠
