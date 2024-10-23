@@ -81,7 +81,7 @@ const backEndSidebar = [
     collapsible: false, // 允许折叠
     collapsed: false, // 默认折叠
     items: [
-      
+      { text: "Knife4j", link: "/back-end/web/Knife4j" },
     ],
   },
   {
