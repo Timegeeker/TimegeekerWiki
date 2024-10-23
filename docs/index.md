@@ -10,27 +10,23 @@ hero:
     src: /growth.png
   actions:
     - theme: brand
-      text: 后端
-      link: /back-end
-    - theme: brand
       text: Java
       link: /back-end/java/
     - theme: brand
       text: 并发
       link: /back-end/concurrent/
     - theme: brand
-      text: 操作系统
-      link: /back-end/os/
-    - theme: brand
-      text: 计算机网络
-      link: /back-end/network/
+      text: Web 开发
+      link: /back-end/web/
     - theme: brand
       text: MySQL
       link: /back-end/mysql/
     - theme: brand
       text: Redis
       link: /back-end/redis/
-
+    - theme: brand
+      text: 开发工具
+      link: /back-end/devTools/
 features:
   - icon: 📝
     title: 个人博客

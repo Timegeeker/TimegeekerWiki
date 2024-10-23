@@ -54,7 +54,7 @@ const backEndSidebar = [
       
     ],
   },
-  {
+/*   {
     text: "操作系统",
     link: "/back-end/os/",
     collapsible: true, // 允许折叠
@@ -64,15 +64,24 @@ const backEndSidebar = [
       { text: "进程管理", link: "/back-end/os/process" },
       { text: "内存管理", link: "/back-end/os/memory" },
     ],
-  },
+  }, */
  
-  {
+/*   {
     text: "计算机网络",
     link: "/back-end/network/",
     collapsible: true, // 允许折叠
     collapsed: true, // 默认折叠
     items: [
 
+    ],
+  }, */
+  {
+    text: "Web 开发",
+    link: "/back-end/web/",
+    collapsible: false, // 允许折叠
+    collapsed: false, // 默认折叠
+    items: [
+      
     ],
   },
   {
@@ -104,14 +113,14 @@ const backEndSidebar = [
   },
 ];
 
-const frontEndSidebar = [
+/* const frontEndSidebar = [
   {
     text: "前端",
     collapsible: true,
     collapsed: true,
     items: [{ text: "VitePress", link: "/front-end/vitepress" }],
   },
-];
+]; */
 const base = "/TimegeekerWiki/";
 
 export default defineConfig({
@@ -132,15 +141,15 @@ export default defineConfig({
     // 顶部导航栏
     nav: [
       { text: "Home", link: "/" },
-      { text: "后端", link: "/back-end/index" },
-      { text: "前端", link: "/front-end/index" },
+/*       { text: "后端", link: "/back-end/index" },
+      { text: "前端", link: "/front-end/index" }, */
     ],
 
     // 侧边栏配置
     sidebar: {
       "/back-end/": backEndSidebar,
-      "/front-end/": frontEndSidebar,
-    },
+/*       "/front-end/": frontEndSidebar,
+ */    },
 
     // 社交链接
     socialLinks: [
