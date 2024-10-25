@@ -101,7 +101,7 @@ const backEndSidebar = [
     collapsible: true, // 允许折叠
     collapsed: true, // 默认折叠
     items: [
-      
+      { text: "通用命令", link: "/back-end/redis/通用命令" },
     ],
   },
   {
