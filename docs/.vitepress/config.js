@@ -92,7 +92,7 @@ const backEndSidebar = [
     collapsible: true, // 允许折叠
     collapsed: true, // 默认折叠
     items: [
-
+      { text: "SQL 语句执行流程", link: "/back-end/mysql/SQL 语句执行流程" },
     ],
   },
   {
