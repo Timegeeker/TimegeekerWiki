@@ -14,6 +14,7 @@ const backEndSidebar = [
         items: [
           { text: "泛型", link: "/back-end/java/basic/Generics" },
           { text: "内部类", link: "/back-end/java/basic/InnerClass" },
+          { text: "注解", link: "/back-end/java/basic/Annotations" },
           { text: "方法", link: "/back-end/java/basic/Method" },
         ]
       },
