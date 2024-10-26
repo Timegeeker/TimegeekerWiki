@@ -85,6 +85,7 @@ const backEndSidebar = [
     items: [
       { text: "Knife4j", link: "/back-end/web/Knife4j" },
       { text: "Sentinel 实现限流", link: "/back-end/web/Sentinel 实现限流" },
+      { text: "数据校验", link: "/back-end/web/数据校验" },
     ],
   },
   {
@@ -144,9 +145,9 @@ export default defineConfig({
     // 顶部导航栏
     nav: [
       { text: "Home", link: "/" },
-/*       { text: "后端", link: "/back-end/index" },
-      { text: "前端", link: "/front-end/index" }, */
-    ],
+      { text: "后端", link: "/back-end/index" },
+/*       { text: "前端", link: "/front-end/index" },
+ */    ],
 
     // 侧边栏配置
     sidebar: {
