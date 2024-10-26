@@ -83,6 +83,7 @@ const backEndSidebar = [
     collapsible: false, // 允许折叠
     collapsed: false, // 默认折叠
     items: [
+      { text: "Spring 事务", link: "/back-end/web/Spring 事务" },
       { text: "Knife4j", link: "/back-end/web/Knife4j" },
       { text: "Sentinel 实现限流", link: "/back-end/web/Sentinel 实现限流" },
       { text: "数据校验", link: "/back-end/web/数据校验" },
