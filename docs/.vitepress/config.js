@@ -88,6 +88,7 @@ const backEndSidebar = [
       { text: "Sentinel 实现限流", link: "/back-end/web/Sentinel 实现限流" },
       { text: "数据校验", link: "/back-end/web/数据校验" },
       { text: "Spring Resources", link: "/back-end/web/Spring Resources" },
+      { text: "Spring IOC", link: "/back-end/web/Spring IOC" },
     ],
   },
   {
