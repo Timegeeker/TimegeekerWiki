@@ -19,6 +19,14 @@ const backEndSidebar = [
         ]
       },
       {
+        text: "IO",
+        collapsible: true, // 允许折叠
+        collapsed: true, // 默认折叠
+        items: [
+          { text: "NIO", link: "/back-end/java/io/NIO" },
+        ]
+      },
+      {
         text: "Object",
         collapsible: true, // 允许折叠
         collapsed: true, // 默认折叠
