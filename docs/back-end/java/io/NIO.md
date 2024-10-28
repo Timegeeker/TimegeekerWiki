@@ -11,8 +11,6 @@ Java NIO 在 Java 1.4 引入，目的是解决传统 I/O 的性能和灵活性�
 
 所谓的非阻塞式 I/O（NIO）是在执行 I/O 操作时，线程不会被阻塞，可以立即返回并继续执行其他任务。线程需要轮询或通过回调机制来检查操作是否完成。
 
-## 一、 NIO 的核心组件
-
 Java NIO 有几个核心组件：**Channel**、**Buffer**、**Selector**。每个组件在设计上都有独特的目的和用法。
 
 ### 1. Channel（通道）
@@ -101,15 +99,15 @@ public class BufferExample {
 
 - 写入数据：往 Buffer 中写入数据 JAVA 四个元素，此时 position 所在的索引 4 为下一个写入数据的索引，（limit - position）代表还可以写入多少个元素。
 
-![](buffer-2.png)
+![](/buffer-2.png)
 
 - 切换为读模式：此时 position 的下一个读取元素的索引，limit 为读取限制索引。
 
-![](buffer-3.png)
+![](/buffer-3.png)
 
 - 读取元素：读取前两个元素，position 指针向前移动两个单位。
 
-![](buffer-4.png)
+![](/buffer-4.png)
 
 - 切换为写模式：
   - 方式一： 采用  `clear` 方法，重置 `postion` 为 0，limit 为 `capacity`。相当于全部清除，无论 Buffer 中的数据是否全部读取完整。
