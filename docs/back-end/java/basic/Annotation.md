@@ -30,7 +30,7 @@ public @interface MyAnnotation {
 
 - **@Retention**: 定义注解的生命周期，`RetentionPolicy`可以是`SOURCE`（编译时忽略）、`CLASS`（存在于class文件中，但运行时不可见）、`RUNTIME`（运行时通过反射可见）。
 - **@Target**：指定注解可用于的程序元素，`ElementType`可以是`TYPE`（类、接口）、`METHOD`（方法）、`FIELD`（字段）等。
-- **@Document**：指定该注解是否包含在 JavaDoc 中。
+
 - **@Inherit**: 指示某种注解类型自动继承。
 
 ## 注解的编译处理
