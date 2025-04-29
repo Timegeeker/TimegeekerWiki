@@ -19,6 +19,14 @@ const backEndSidebar = [
         ]
       },
       {
+        text: "集合",
+        collapsible: true, // 允许折叠
+        collapsed: true, // 默认折叠
+        items: [
+          { text: "集合框架概要", link: "/back-end/java/collection/index" },
+        ]
+      },
+      {
         text: "IO",
         collapsible: true, // 允许折叠
         collapsed: true, // 默认折叠
