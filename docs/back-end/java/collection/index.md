@@ -36,7 +36,7 @@ Java集合框架从抽象到具体，主要是三大接口族：
 
 
 
-![/collection/collection.png]()
+![](/collection/collection.png)
 
 在`Collection`体系下，又根据元素特性不同，细分出几个更具体的子接口：
 
@@ -58,7 +58,7 @@ Java集合框架从抽象到具体，主要是三大接口族：
 
 
 
-![/collection/map.png]()
+![](/collection/map.png)
 
 - 以键（key）和值（value）成对管理元素
 - 键不可重复，值可以重复
